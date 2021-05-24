@@ -58,7 +58,6 @@ public class EduTeacherController {
                                         @PathVariable Long page,
                                         @PathVariable Long rows){
 
-//        Map teacherPage = eduTeacherService.getTeacherPage(page, rows);
         GuiguResult teacherPage = eduTeacherService.getTeacherPageByQuery(page, rows, teacherQuery);
 
         return teacherPage;
