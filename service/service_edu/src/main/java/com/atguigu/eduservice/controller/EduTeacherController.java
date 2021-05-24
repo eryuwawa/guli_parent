@@ -27,6 +27,9 @@ import java.util.Map;
  */
 
 //同时实验连接GitHub的push操作+++++++
+//完成了push之后，其他人提交，无法push，需要先pull
+
+//同时实验连接GitHub的push操作
 @RestController
 @RequestMapping("/eduservice/teacher")
 public class EduTeacherController {
