@@ -41,6 +41,7 @@ public class EduTeacherController {
         return GuiguResult.ok().data("teacherList", teacherList);
     }
 
+    //获取教师查询分页数据
     @GetMapping("/page/{page}/{rows}")
     public GuiguResult getTeacherPage(@PathVariable Long page,
                                       @PathVariable Long  rows){
