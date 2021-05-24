@@ -65,6 +65,7 @@ public class EduTeacherController {
     }
 
 
+    //根据id删除讲师
     @DeleteMapping("/{id}}")
     public GuiguResult deleteTeacherById(@PathVariable String id){
 
@@ -73,6 +74,7 @@ public class EduTeacherController {
         return removeById == true ? GuiguResult.ok():GuiguResult.error();
     }
 
+    //新增讲师
     @ApiOperation(value = "新增讲师")
     @PostMapping
     public GuiguResult save(
