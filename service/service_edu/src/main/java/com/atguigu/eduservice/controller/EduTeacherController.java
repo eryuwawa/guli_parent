@@ -25,6 +25,8 @@ import java.util.Map;
  * @author atguigu_somc
  * @since 2021-05-22
  */
+
+//同时实验连接GitHub的push操作
 @RestController
 @RequestMapping("/eduservice/teacher")
 public class EduTeacherController {
