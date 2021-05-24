@@ -85,6 +85,7 @@ public class EduTeacherController {
     }
 
     //根据id查询讲师---master edit
+    //根据id查询讲师-develop edit
     @ApiOperation(value = "根据ID查询讲师")
     @GetMapping("{id}")
     public GuiguResult getById(
